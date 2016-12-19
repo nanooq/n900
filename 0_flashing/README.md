@@ -1,5 +1,10 @@
 # Sources
-## Images
+## Firmware
+* in branch 'firmware'. 
+  * # create archives
+  * `$ gzip -c my_large_file | split -b 1024MiB - myfile_split.gz_`
+  * # uncompress
+  * `$ cat myfile_split.gz_* | gunzip -c > my_large_file`
 * http://maemo-repos.com/apt-mirror/tablets-dev/nokia_N900/
 * http://www.fladnag.net/downloads/telephone/n900/
 * ~~http://web.archive.org/web/20131117073524/~~
