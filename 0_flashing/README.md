@@ -16,7 +16,7 @@
 # Installing the flasher 
 Community Information: http://wiki.maemo.org/Updating_the_firmware
 I am on an 32-bit Debianish Linux, hence: `sudo dpkg -i maemo_flasher-3.5_2.5.2.2_i386.deb`
-    
+
 # Flashing eMMC 
 Community Information: http://wiki.maemo.org/Updating_the_firmware
 * N900 is turned off and unplugged
