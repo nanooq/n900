@@ -41,4 +41,5 @@ Community Information: http://wiki.maemo.org/Cssu
 * Click on CSSU Testing
 * Hildon Application Manager (HAM) will launch and begin processing. Be patient. Click "Accept" and "Done" for each to install.
 * Once this is completed, close HAM and go into the applications menu. Tap the Community SSU icon. This will run through a series of scripts to ensure the community repository are set up.
-* HAM will re-open and present you Maemo 5 Community SSU* Once installed, your device will reboot "into" CSSU.
+* HAM will re-open and present you Maemo 5 Community SSU
+* Once installed, your device will reboot "into" CSSU.
