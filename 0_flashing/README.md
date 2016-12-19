@@ -7,6 +7,7 @@
 * or search the web for: 
   * RX-51_2009SE_10.2010.13-2.VANILLA_PR_EMMC_MR0_ARM.bin
   * RX-51_2009SE_21.2011.38-1_PR_COMBINED_MR0_ARM.bin
+  
 ## Flasher:
 * ~~http://web.archive.org/web/20131117084237/~~
 * ~~http://skeiron.org/tablets-dev/maemo_dev_env_downloads/~~
@@ -14,10 +15,9 @@
   * maemo_flasher-3.5_2.5.2.2_i386.deb
 # Installing the flasher 
 Community Information: http://wiki.maemo.org/Updating_the_firmware
-I am on an 32-bit Debianish Linux, hence:
-
-    sudo dpkg -i maemo_flasher-3.5_2.5.2.2_i386.deb
-# Flashing eMMC ===
+I am on an 32-bit Debianish Linux, hence: `sudo dpkg -i maemo_flasher-3.5_2.5.2.2_i386.deb`
+    
+# Flashing eMMC 
 Community Information: http://wiki.maemo.org/Updating_the_firmware
 * N900 is turned off and unplugged
 * Enter command `sudo flasher-3.5 -F RX-51_2009SE_10.2010.13-2.VANILLA_PR_EMMC_MR0_ARM.bin -f`
