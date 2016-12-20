@@ -35,7 +35,7 @@ Community Information: http://wiki.maemo.org/Updating_the_firmware
 Community Information: http://wiki.maemo.org/Updating_the_firmware
 
 * N900 is turned off and unplugged, again.
-* Enter command `sudo flasher-3.5.exe -F RX-51_2009SE_21.2011.38-1_PR_COMBINED_MR0_ARM.bin -f -R`
+* Enter command `sudo flasher-3.5 -F RX-51_2009SE_21.2011.38-1_PR_COMBINED_MR0_ARM.bin -f -R`
 * Plug in the powered down N900 wile holding 'u' key. 
 * After successful flashing, device reboots on its own.
 
