@@ -5,7 +5,7 @@
 
 # Removing and backup stuff
 
- rm /usr/share/osso-rtcomm/voip-support/nokiachat.profile
+ rm /usr/share/osso-rtcomm/voip-support/{facebook-chat,google-talk,nokiachat}.profile
 
  mv {browser,camera-ui,chess_startup,filemanager,hildon-application-manager, \  
  htop,maemoblocks,mahjong_startup,nokia-maps,osso-backup,osso_calculator, \
