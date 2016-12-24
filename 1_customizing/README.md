@@ -1,7 +1,16 @@
 # Access N900
-* In HAM install `rootsh` and `openssh`
-* Open XTerminal `passwd user` and ssh-keygen.
-* Then close Password- and root login in `/etc/sshd/config`
+* In HAM install `rootsh`
+* Open XTerminal
+  * `sudo gainroot`
+  * `apt-get install openssh` - you'll have to enter a root login password.
+  * `ifconfig wlan0` - note its IP address
+* On your workstation generate a ssh-key `ssh-keygen`
+  * `ssh-copy-id -i $GENERATEDKEY root@IP`
+  * log into the n900 `ssh -i $GENERATEDKEY root@IP`
+  * `cp /root/.ssh/authoritzed_keys /home/user/.ssh/`
+  * `passwd user` - set user password
+  * `/etc/init.d/ssh restart`
+
 
 # Removing and backup stuff
 
