@@ -1,4 +1,4 @@
-# Access N900
+I# Access N900
 * In HAM install `rootsh`
 * Open XTerminal
   * `sudo gainroot`
